@@ -1,0 +1,521 @@
+{
+  "ui": {
+    "loading": "Lädt..."
+  },
+  "enrollment": {
+    "welcome": {
+      "header": "Temporärer Startbildschirm",
+      "abstract": "This screen needs to be cleaned-up.",
+      "intro_button": "Start",
+      "choose_pin_button": "PIN wählen",
+      "not_now": "Später"
+    },
+    "introduction": {
+      "button_text": "Wählen Sie eine PIN",
+      "screen1": {
+        "title": "IRMA — Die Identitäts-App für Ihr Handy",
+        "text": "Ihr Name, ihr Geburtsdatum, Ihre Adresse und mehr. Alles sicher verwahrt in Ihrer IRMA-App."
+      },
+      "screen2": {
+        "title": "Mit IRMA können Sie sich ausweisen",
+        "text": "Einfach, sicher und schnell. Sie haben alles selbst in der Hand."
+      },
+      "screen3": {
+        "title": "IRMA bietet Ihnen und anderen Gewissheit",
+        "text": "Ihre Daten werden ausschließlich in der IRMA-App gespeichert, nur Sie haben Zugriff.",
+        "privacy": {
+          "text": "Lesen Sie die Datenschutzregeln",
+          "url": "https://privacybydesign.foundation/privacy-policy-en/"
+        }
+      }
+    },
+    "choose_pin": {
+      "title": "Sichern Sie ihre IRMA-App",
+      "insert_pin": "Wählen Sie eine 5-stellige PIN",
+      "confirm_title": "PIN wiederholen",
+      "instruction": "Wählen Sie eine 5-stellige PIN",
+      "confirm_instruction": "Geben Sie die PIN nochmal ein",
+      "next": "Weiter",
+      "error_title": "Falsche PIN",
+      "error": "PINs stimmen nicht überein. Wählen Sie eine neue PIN.",
+      "error_action": "OK",
+      "textfield": "PIN"
+    },
+    "provide_email": {
+      "title": "Sichern Sie ihre IRMA-App",
+      "instruction": "Eine E-Mail-Adresse erlaubt es Ihnen, die IRMA-App zu deaktivieren, sollte Ihr Mobiltelefon gestohlen werden oder verloren gehen.",
+      "skip": "Überspringen",
+      "next": "Weiter",
+      "error": "Dies ist keine gültige E-Mail-Adresse.",
+      "skip_title": "Sind Sie sicher?",
+      "skip_content": "Schützen Sie ihre Daten. Wenn Sie eine E-Mail-Adresse angeben, können Sie die IRMA-App deaktivieren, sollte Ihr Mobiltelefon gestohlen werden oder verloren gehen.",
+      "insert_email": "E-Mail-Adresse angeben",
+      "textfield": "E-Mail-Adresse"
+    },
+    "email_sent": {
+      "title": "Sichern Sie ihre IRMA-App",
+      "button": "Weiter",
+      "message_title": "E-Mail-Adresse bestätigen",
+      "message_markdown": "Sie haben eine E-Mail von **noreply@sidn.nl** erhalten. Öffnen Sie den Link in dieser Nachricht, um Ihre E-Mail-Adresse mit Ihrer IRMA-App zu verknüpfen.",
+      "mail_sent_text_markdown": "Die Mail wurde an **{emailaddress}** verschickt.",
+      "check_spam": "Es kann einen Moment dauern, bevor die Mail in Ihrem Postfach erscheint. Sollten Sie die E-Mail nicht finden, kontrollieren Sie bitte Ihren Spam-Ordner."
+    },
+    "submit": {
+      "title": "Anmelden",
+      "progress_enrollment": "Sie werden eingeloggt."
+    }
+  },
+  "about": {
+    "title": "Über IRMA",
+    "header": "Weisen Sie sich aus.",
+    "slogan": "Mit IRMA haben Sie alles selbst in der Hand.",
+    "who_is_behind_irma_item": "Wer steckt hinter der IRMA-App?",
+    "who_is_behind_irma_explanation_markdown": "IRMA wird von der **Privacy by Design Stiftung** herausgegeben. Diese Stiftung ist 2016 aus der Forschungsgruppe für digitale Sicherheit an der Radboud Universität Nimwegen hervorgegangen. Die Stiftung ist unabhängig und gemeinnützig.\n\nDie IRMA-App ist Open Source und wird gemeinsam mit SIDN, dem Verwalter der .nl-Domain, entwickelt. Diese Entwicklung wird gemeinsam mit der lokalen Regierung und dem Gesundheitswesen durchgeführt. Etwa 30 Gemeinden sind daran beteiligt, darunter Nimwegen, Amsterdam und Leiden. IRMA ist Empfänger des niederländischen Privacy Award 2018.",
+    "check_out": "Siehe auch: ",
+    "award": "Niederländischer Privacy Award",
+    "award_link": "https://privacyawards.nl/2018-2/",
+    "why_irma_item": "Warum existiert IRMA?",
+    "why_irma_explanation_markdown": "**IRMA existiert, weil Sie das Recht auf eine Online-Identität haben, die Ihnen wirklich selbst gehört.** IRMA ist keine kommerzielle Anwendung, die verwendet wird, um Ihnen online nachzuspionieren, ein Profil von Ihnen zu erstellen und Ihre persönlichen Daten an Dritte zu verkaufen.\n\nIRMA steht im Geiste der [Datenschutz-Grundverordnung (DSGVO)] (https://gdpr-info.eu/). Mit der IRMA-App geben sie nur die Daten über sich selbst weiter, die in einer bestimmten Situation relevant und notwendig sind.\n\n**Mit der IRMA-App haben sie Ihre Identität selbst in der Hand, alles ist sicher gespeichert auf Ihrem eigenen Handy.** Die IRMA-App ist ein leistungsfähiges Mittel, um sich online auszuweisen und digital Texte zu signieren - mit Respekt für Ihre Privatsphäre.",
+    "privacy_item": "IRMA, Privatsphäre und Sicherheit",
+    "privacy_explanation_markdown": "Die IRMA-App wurde so entwickelt, dass Sie und nur Sie Ihre persönlichen Daten einsehen und nutzen können. Ihre persönlichen Daten werden nur auf Ihrem Handy und nicht in einer Cloud gespeichert.\n\nDie IRMA-App ist so konzipiert, dass eine Website, bei der Sie sich ausweisen, (kryptographisch) überprüfen kann, ob die Daten, die Sie preisgeben, echt sind.\n\nDie IRMA-App gibt Ihre Daten direkt von Ihrem Handy an die Website weiter. Niemand sonst kann sehen, dass Sie sich dort ausweisen, sogar die Organisation hinter IRMA nicht.\n\nWenn Sie IRMA benutzen, stimmen Sie damit der Datenschutzerklärung [link] zu.",
+    "responsibility_item": "Eigenverantwortung",
+    "responsibility_explanation": "Eine Website, die einen Login via IRMA anbietet, fragt Daten ab, die für diesen Login benötigt werden. Innerhalb der IRMA-App entscheiden Sie, ob Sie mit dem Weitergeben Ihrer Daten einverstanden sind.\nFragt die Website nach zu vielen Daten? Dann ist es ratsam, nicht zuzustimmen. Sie können erwägen, eine Beschwerde bei Ihrer Datenschutzbehörde einzureichen. Mit der IRMA-App können Sie Texte auch digital unterschreiben. Eine solche Signatur kann (rechtliche) Konsequenzen haben. Wenn Sie mit der IRMA-App eine digitale Signatur setzen, ist die **Privacy by Design Stiftung** in keiner Weise eine Partei in der Vereinbarung die Sie damit abschliessen. Die Stiftung ist weder verantwortlich noch haftbar.",
+    "learn_more": "Mehr Infos",
+    "more_information": "IRMA Webseite",
+    "irma_website_link": "https://irma.app/?lang=en",
+    "source_code": "Quellcode",
+    "source_code_link": "https://github.com/privacybydesign",
+    "contact": "Kontaktdaten",
+    "contact_subject": "IRMA-App",
+    "privacy_policy": "IRMAs Datenschutzregeln",
+    "privacy_policy_link": "https://privacybydesign.foundation/privacy-policy-en",
+    "demo": "FAQs und Demos",
+    "demo_link": "In-App Link",
+    "get_involved": "Bleiben Sie informiert und engagieren Sie sich",
+    "meetups": "Veranstaltungen",
+    "meetups_link": "https://privacybydesign.foundation/meetings/",
+    "twitter": "@irma_privacy",
+    "twitter_link": "https://twitter.com/irma_privacy",
+    "github": "GitHub",
+    "github_link": "https://github.com/privacybydesign",
+    "share_slogan": "Teilen Sie IRMA mit anderen",
+    "share_text": "Lernen Sie die IRMA-App kennen: https://irma.app",
+    "share": "IRMA teilen",
+    "version": "Version {version}",
+    "copyright": "Copyright Privacy by Design Foundation, 2020, veröffentlicht unter der GPL-Lizenz 3.0",
+    "pbdf": "Privacy by Design",
+    "pbdf_link": "https://privacybydesign.foundation/en/",
+    "developer_mode_enabled": "Entwicklermodus aktiviert"
+  },
+  "manual": {
+    "faq": "Anleitung",
+    "faq_info": "Wie verwendet man IRMA? Siehe die Erklärungen im Folgenden.",
+    "question_1": "Wie nutze ich IRMA, um mich auf einer mobilen Webseite anzumelden?",
+    "answer_1": {
+      "step_1": "Öffnen Sie die Webseite auf Ihrem Handy und wählen Sie Anmeldung mit IRMA.",
+      "step_2": "Die IRMA-App startet automatisch.\nGeben Sie Ihre PIN ein.",
+      "step_3": "Stimmen Sie der Weitergabe Ihrer persönlichen Daten zu (oder lehnen Sie diese ab)",
+      "step_4": "Sie sind eingeloggt.\nNun können Sie die Webseite benutzen."
+    },
+    "question_2": "Wie nutze ich IRMA, um mich auf einer Webseite auf meinem Computer anzumelden?",
+    "answer_2": {
+      "step_1": "Öffnen Sie die Webseite auf Ihrem Computer und wählen Sie Anmeldung mit IRMA.",
+      "step_2": "Öffnen Sie die IRMA-App auf Ihrem Mobiltelefon und geben Sie Ihre PIN ein.",
+      "step_3": "Starten Sie den QR-Code-Scanner der IRMA-App. Scannen Sie den QR-Code auf dem Bildschirm Ihres Computers.",
+      "step_4": "Stimmen Sie der Weitergabe Ihrer persönlichen Daten zu (oder lehnen Sie diese ab)",
+      "step_5": "Sie sind eingeloggt.\nNun können Sie die Webseite benutzen."
+    }
+  },
+  "help": {
+    "title": "Hilfe",
+    "faq": "FAQ",
+    "faq_info": "Schauen Sie, ob Ihre Frage schon beantwortet wurde",
+    "question_1": "Was kann ich mit IRMA machen?",
+    "answer_1_markdown": "Mit IRMA ist es leicht sich einzuloggen und online auszuweisen. Sie geben nur notwendige Informationen über sich selbst weiter. Möchten Sie zum Beispiel einen bestimmten Film schauen, müssen Sie nur weitergeben, dass Sie über 16 Jahre alt sind. Mit IRMA können Sie auch Dokumente digital signieren. Sie verwenden auch hier nur relevante Eigenschaften Ihrer Person, in einer Art digitalem Stempel. Auf diese Weise ermöglicht IRMA Ihnen, als Arzt, als Bürger oder in einer anderen Rolle zu unterschreiben.\n\nMehr und mehr Websites unterstützen das Einloggen mit IRMA. Zum Beispiel können Ärzte in den Niederlanden über die Website [helder] (https://www.helder.health/) auf medizinische Dossiers zugreifen. Die Unterstützung für IRMA wächst vor allem bei Kommunen und Gesundheitsversorgern. Um sich ein Bild von den Möglichkeiten zu machen, können Sie einige der verfügbaren IRMA-[Demos](https://privacybydesign.foundation/demo-en/) selbst ausprobieren.",
+    "question_2": "Was mache ich, wenn ich mein Mobiltelefon verliere?",
+    "answer_2_markdown": "Wenn Sie Ihr Handy verlieren, kann niemand ohne Ihre PIN die IRMA-App verwenden. Sie können sich noch zusätzlich schützen, indem sie bei der Installation von IRMA eine E-Mail-Adresse angeben. Wenn Sie dies getan haben, können Sie Ihre IRMA-App über [MyIRMA] (https://privacybydesign.foundation/myirma/) vollständig sperren. Die IRMA-App auf Ihrem alten (verlorenen) Handy ist dann völlig unbrauchbar. Wenn Sie noch keine E-Mail-Adresse in [MyIRMA](https://privacybydesign.foundation/myirma/) eingetragen haben, empfehlen wir Ihnen, dies noch nachträglich zu tun.\n\nAuf Ihrem neuen Mobiltelefon können Sie die IRMA-App erneut installieren und mit Ihren Daten füllen. Dann ist IRMA wieder einsatzbereit.",
+    "question_3": "Was macht IRMA datenschutzfreundlich und sicher?",
+    "answer_3": "Ihre persönlichen Daten sind durch Ihre PIN geschützt. Ihre Daten werden ausschliesslich in der IRMA-App und nicht in der Cloud gespeichert.\n\nDie Daten in Ihrer IRMA-App werden vom Herausgeber, der die Daten ausstellt (z.B. den lokalen Behörden), digital signiert.\n\nSo kann eine Website, auf der Sie sich ausweisen, kryptographisch verifizieren, dass Ihre Daten echt sind.\n\nDieser Austausch von persönlichen Daten erfolgt direkt zwischen Ihrem Mobiltelefon und der Website. Niemand sonst kann sehen, dass Sie sich dort anmelden, nicht einmal die Organisation hinter IRMA.",
+    "question_4": "Wo werden meine IRMA-Daten gespeichert?",
+    "answer_4": "Ihre Daten werden in der IRMA-App auf Ihrem Handy gespeichert und nicht in der Cloud.\n\nSie stimmen ausdrücklich zu (oder auch nicht), Ihre persönlichen Daten aus Ihrer IRMA-App an eine Webseite weiterzugeben.\nWenn Sie Ihre Daten aus der IRMA-App entfernen, sind sie wirklich aus IRMA verschwunden.",
+    "question_5": "Warum haben die Daten in der IRMA-App eine begrenzte Gültigkeit?",
+    "answer_5": "Jede Karte in IRMA hat eine Gültigkeit. Die Gültigkeitsdauer hängt von der Art der Daten auf der Karte ab und davon, wie stabil diese Daten sind. Die Karte mit Ihrem Namen und Ihrem Geburtsdatum ist fünf Jahre gültig, die Karte mit Ihren Adressdaten jedoch nur ein Jahr. Der Herausgeber der Daten bestimmt diese Gültigkeitsdauer. Die Karten in Ihrer IRMA-App können daher ablaufen. Die IRMA-App gibt Ihnen dann einen Warnhinweis. Sie können Ihre Karten jederzeit, auch ohne einen solchen Warnhinweis, aktualisieren, indem Sie sie erneut von dem Herausgeber herunterladen. Beispielsweise können Sie nach Ihrem 18. Geburtstag Ihre Daten neu laden, damit Sie nachweisen können, dass Sie jetzt älter als 18 Jahre sind.",
+    "question_6": "Kann ich IRMA auf mehreren mobilen Geräten installieren?",
+    "answer_6": "Ja, auf jedem mobilen Gerät (Android oder iOS) können Sie IRMA installieren und mit Ihren persönlichen Daten füllen. Es ist tatsächlich klug, dies zu tun. Wenn Sie ein Gerät verlieren, können Sie sich immer noch mit Ihrem anderen Gerät anmelden.",
+    "ask": "Stelle eine Frage",
+    "more": "Mehr Fragen und Antworten",
+    "more_link": "https://irma.app/?lang=de#faqs",
+    "send": "Haben Sie andere/weitere Fragen? Senden Sie eine E-Mail. Es kann einige Tage dauern, bis Sie eine Antwort erhalten.",
+    "back_button": "Zurück zu allen IRMA-Karten ",
+    "email": "Sende eine E-Mail",
+    "contact": "app@privacybydesign.foundation",
+    "mail_subject": "Hilfe mit der IRMA-App",
+    "mail_error_title": "Entschuldigung",
+    "mail_error": "Mail-App konnte nicht geöffnet werden",
+    "mail_error_button": "OK"
+  },
+  "drawer": {
+    "lock_wallet": "Ausloggen",
+    "add_cards": "Karten hinzufügen",
+    "settings": "Einstellungen",
+    "help": "Hilfe",
+    "history": "Geschichte",
+    "about": "Über IRMA"
+  },
+  "webview": {
+    "open_iOS": "Mit Safari öffnen",
+    "open_browser": "Im Browser öffnen",
+    "cancel": "Abbrechen",
+    "select": "Auswählen",
+    "alert_title": "Webseite nicht sicher",
+    "alert_message": "Die Website, die Sie besuchen möchten, ist nicht sicher. Sie können sie innerhalb der IRMA-App nicht anzeigen. Öffnen Sie eine andere (Browser-)Anwendung, wenn Sie diese Website dennoch besuchen möchten.",
+    "alert_button": "Schließen"
+  },
+  "accessibility": {
+    "irma_logo": "IRMA Logo",
+    "menu": "Menü",
+    "back": "Zurück",
+    "close": "Schließen",
+    "next": "Weiter",
+    "previous": "Zurück",
+    "unfold": "Einblenden",
+    "update": "Update",
+    "remove": "Entfernen",
+    "expand": "Ausklappen",
+    "refresh": "Aktualisieren",
+    "alert": "Warnhinweis",
+    "collapsed": "Eingeklappt",
+    "expanded": "Ausgeklappt",
+    "slideshow": "Ansicht {i} von {n}: {description}"
+  },
+  "card": {
+    "personaldata": "Persönliche Daten",
+    "expiresAt": "Karte gültig bis",
+    "delete": "Karte löschen",
+    "refresh": "Karte aktualisieren",
+    "delete_title": "Sind Sie sicher?",
+    "delete_content": "Wenn Sie fortfahren, wird diese Karte aus Ihrer IRMA-App gelöscht.",
+    "delete_confirm": "Karte löschen",
+    "delete_deny": "Abbrechen"
+  },
+  "card_store": {
+    "app_bar": "Karten hinzufügen",
+    "choose": "Wählen Sie die Daten, die Sie hinzufügen möchten.",
+    "search": "Suchen...",
+    "personal_data": "Persönliche Daten",
+    "card_info": {
+      "app_bar": "Daten hinzufügen",
+      "header_credential_type": "Hinzufügen von {credential_type}",
+      "obtain": "Hinzufügen",
+      "issuer": "Herausgeber",
+      "purpose_question": "Was können Sie mit diesen Daten tun?",
+      "content_question": "Welche Daten werden hinzugefügt?",
+      "howto_question": "Wie funktioniert es?",
+      "back_button": "Abbrechen",
+      "get_button": "Hinzufügen"
+    },
+    "category_other": "Sonstige"
+  },
+  "settings": {
+    "title": "Einstellungen",
+    "start_qr": "QR-Scanner nach dem Start automatisch öffnen",
+    "change_pin": "PIN ändern",
+    "advanced": {
+      "header": "Erweiterte Einstellungen",
+      "experimental_data": "Laden von experimentellen Daten aktivieren",
+      "report_errors": "Fehlermeldungen an IRMA senden",
+      "delete": "Alles löschen und neu anfangen",
+      "delete_title": "Sind Sie sicher?",
+      "delete_content": "Wenn Sie fortfahren, werden alle Ihre Karten aus der IRMA-App gelöscht. Möchten Sie IRMA zu einem späteren Zeitpunkt erneut verwenden, müssen Sie Ihre Karten erneut laden.",
+      "delete_confirm": "Ja, alles löschen",
+      "delete_deny": "Abbrechen",
+      "developer_mode": "Entwicklermodus"
+    }
+  },
+  "change_pin": {
+    "enter_pin": {
+      "title": "PIN ändern",
+      "instruction": "Geben Sie Ihre aktuelle PIN ein",
+      "error_title": "Falsche PIN",
+      "error": "Geben Sie bitte Ihre aktuelle PIN ein",
+      "error_action": "OK"
+    },
+    "validating_pin": {
+      "header": "Einen Moment bitte",
+      "details": "Ihre PIN wird überprüft"
+    },
+    "choose_pin": {
+      "title": "PIN ändern",
+      "instruction": "Wählen Sie Ihre neue PIN",
+      "switch_long": "Bevorzugen Sie eine längere PIN?",
+      "switch_short": "Bevorzugen Sie eine kürzere PIN?",
+      "error_title": "Falsche PIN",
+      "error": "Unterschiedliche PINs. Wählen Sie eine neue PIN.",
+      "error_action": "OK"
+    },
+    "confirm_pin": {
+      "title": "PIN ändern",
+      "instruction": "Geben Sie Ihre PIN erneut ein"
+    },
+    "updating_pin": {
+      "header": "Einen Moment bitte",
+      "details": "Ihre PIN wird geändert"
+    },
+    "success": {
+      "title": "Erfolgreich",
+      "message": "Ihre PIN wurde geändert."
+    }
+  },
+  "qr_scanner": {
+    "instruction": {
+      "title": "Beginnen Sie den Scan",
+      "message": "Richten Sie die Kamera auf den IRMA QR-Code.",
+      "semantic": "Beginnen Sie mit dem Scannen! Richten Sie die Kamera auf den IRMA QR-Code."
+    },
+    "success": {
+      "title": "Erfolgreich",
+      "message": "QR-Code gescannt",
+      "semantic": "QR-Code erfolgreich gescannt."
+    },
+    "error": {
+      "title": "Es tut uns leid",
+      "message": "Dies ist kein IRMA QR-Code",
+      "semantic": "Es tut uns leid. Dies ist kein IRMA-QR-Code."
+    }
+  },
+  "pin_common": {
+    "blocked_for": "Die Anmeldung ist gesperrt für",
+    "second": {
+      "time-0": "{time} Sekunden",
+      "time-1": "{time} Sekunden",
+      "time-2": "{time} Sekunden"
+    },
+    "minute": {
+      "time-0": "{time} Minuten",
+      "time-1": "{time} Minuten",
+      "time-2": "{time} Minuten"
+    },
+    "hour": {
+      "time-0": "{time} Stunden",
+      "time-1": "{time} Stunden",
+      "time-2": "{time} Stunden"
+    },
+    "day": {
+      "time-0": "{time} Tage",
+      "time-1": "{time} Tage",
+      "time-2": "{time} Tage"
+    },
+    "invalid_title": "Falsche PIN",
+    "invalid_pin": {
+      "attempts-0": "Diese PIN ist nicht korrekt. Sie haben noch {attempts} Versuche übrig, bevor Ihre IRMA-App vorübergehend blockiert wird.",
+      "attempts-1": "Diese PIN ist nicht korrekt. Sie haben noch {attempts} Versuch übrig, bevor Ihre IRMA-App vorübergehend blockiert wird.",
+      "attempts-2": "Diese PIN ist nicht korrekt. Sie haben noch {attempts} Versuche übrig, bevor Ihre IRMA-App vorübergehend blockiert wird."
+    },
+    "invalid_close": "Erneut versuchen.",
+    "blocked_title": "App gesperrt",
+    "blocked_pin": "Ihre App wurde für {blocked} gesperrt. Versuchen Sie es später erneut.",
+    "blocked_close": "Erneut versuchen",
+    "done": "Weiter",
+    "view": "PIN anzeigen",
+    "hide": "PIN ausblenden"
+  },
+  "pin": {
+    "title": "Anmeldung",
+    "subtitle": "Geben Sie Ihre PIN ein",
+    "button_forgot": "PIN vergessen",
+    "button_block": "IRMA blockieren",
+    "seconds": "Sekunden"
+  },
+  "session_pin": {
+    "subtitle": "Geben Sie Ihre PIN erneut ein, um fortzufahren.",
+    "explanation": "Zu Ihrer Sicherheit fragt die IRMA-App regelmäßig nach Ihrer PIN."
+  },
+  "error": {
+    "title": "Etwas ist schiefgegangen.",
+    "blocked_title": "App blockiert",
+    "button_ok": "OK",
+    "button_send_to_irma": "Ans IRMA-Team senden",
+    "button_show_error": "Technische Details anzeigen",
+    "button_retry": "Bitte versuchen Sie es erneut",
+    "button_back": "Zurück",
+    "button_reset": "Von vorne anfangen",
+    "types": {
+      "general": "Etwas ist schiefgegangen.\n\nSollte dies erneut passieren, informieren Sie bitte das IRMA-Team.",
+      "blocked": "Ihre IRMA-App wurde via Fernzugriff gesperrt.\n\nEntweder wurde die App über MyIRMA gesperrt oder Sie haben IRMA auf diesem Gerät mehr als ein Jahr lang nicht verwendet. Sollten Sie IRMA auf diesem Gerät weiterhin verwenden möchten, müssen Sie von vorne anfangen.",
+      "expired": "Die Sitzung ist abgelaufen. Bitte starten Sie die Sitzung neu.",
+      "no_internet": "Irgendwas is schief gelaufen. IRMA benötigt eine Internetverbindung.\n\nBitte überprüfen Sie Ihre Verbindung."
+    },
+    "details_title": "Fehlermeldung"
+  },
+  "wallet": {
+    "title": "IRMA-Karten",
+    "scan_qr_code": "QR-Code scannen",
+    "open_menu": "Menü öffnen",
+    "close_menu": "Menü schließen",
+    "toggle": "Anzeige wechseln",
+    "issuer": "Herausgeber",
+    "expiration": "Karte gültig bis",
+    "expired": "Diese Karte ist abgelaufen",
+    "expired_on": "Karte abgelaufen",
+    "expires_soon": {
+      "data-0": "Diese Karte läuft in {data} Tagen ab"
+    },
+    "revoked": "Diese Karte ist nicht mehr gültig",
+    "not_valid": "Karte ungültig",
+    "refresh": "Karte erneuern",
+    "close": "Schließen",
+    "help": "Hilfe",
+    "caption": "Ihre Daten, sicher auf Ihrem Handy",
+    "pbdf_gemeente_personalData": {
+      "nudge": "Fügen Sie Ihre persönlichen Daten hinzu"
+    },
+    "add_data": "Weitere Daten hinzufügen",
+    "lock": "Abmelden"
+  },
+  "history": {
+    "title": "Verlauf",
+    "button_back": "Zurück",
+    "type": {
+      "removal": {
+        "header": "Karten gelöscht am",
+        "subtitle": "Karte löschen",
+        "data-0": "{data} Karte gelöscht",
+        "data-1": "{data} Karte gelöscht",
+        "data-2": "{data} Karten gelöscht"
+      },
+      "issuing": {
+        "header": "Karte herausgegeben von",
+        "subtitle": "Herausgegebene Karte",
+        "data-0": "{data} Karte herausgegeben von",
+        "data-1": "{data} Karte herausgegeben von",
+        "data-2": "{data} Karten herausgegeben von"
+      },
+      "disclosing_header": "Daten weitergegeben an",
+      "disclosing": {
+        "header": "Daten weitergegeben an",
+        "subtitle": "weitergegebene Daten",
+        "data-0": "{data} weitergegeben an",
+        "data-1": "{data} weitergegeben an",
+        "data-2": "{data} weitergegeben an"
+      },
+      "siging_header": "Unterzeichnete Nachrichten",
+      "signing": {
+        "header": "Nachricht unterzeichnet auf Anfrage von",
+        "subtitle": "Unterzeichnete Nachrichten",
+        "subtitle_used_data": "Mit persönlichen Daten unterzeichnete Nachricht",
+        "data-0": "Unterzeichnet mit {data} auf Anfrage von",
+        "data-1": "Unterzeichnet mit {data} auf Anfrage von",
+        "data-2": "Unterzeichnet mit {data} auf Anfrage von"
+      }
+    }
+  },
+  "issuance": {
+    "title": "Karten hinzufügen",
+    "header-0": "Möchten Sie diese Karte zu Ihrer IRMA-App hinzufügen?",
+    "header-1": "Möchten Sie diese Karte zu Ihrer IRMA-App hinzufügen?",
+    "header-2": "Möchten Sie diese Karten zu Ihrer IRMA-App hinzufügen?"
+  },
+  "session": {
+    "navigation_bar": {
+      "yes": "Ja",
+      "no": "Nein, lieber nicht",
+      "back": "Zurück"
+    },
+    "unknown_session_type": {
+      "explanation": "Die IRMA-Sitzung, die Sie gestartet haben, wird von der App nicht unterstützt.",
+      "title": "Abgebrochen"
+    }
+  },
+  "disclosure": {
+    "title": "Weisen Sie sich aus",
+    "disclosure_header": "Möchten Sie die folgenden Daten an {otherParty} weitergeben?",
+    "disclosure_call_header": "Möchten Sie die folgenden Daten an {otherParty} weitergeben und {phoneNumber} anrufen?",
+    "signing_header": " bittet Sie, eine Nachricht zu unterzeichnen",
+    "issuer": "Herausgeber",
+    "credential_name": "Karte",
+    "choices": "{choices} wählen",
+    "next": "Nächste Wahl",
+    "previous": "Vorherige Wahl",
+    "not_present": "Diese Daten wurden noch nicht zu IRMA hinzugefügt.",
+    "not_present_have_other": "Sie haben eine solche Karte, aber nicht mit den nötigen Daten.",
+    "add_additional": "Möchten Sie zusätzliche Daten weitergeben? Bitte fügen Sie eine weitere '{credential}'-Karte hinzu.",
+    "expired": "Diese Daten sind abgelaufen.",
+    "revoked": "Diese Daten wurden widerrufen.",
+    "not_revokable": "Diese Daten müssen zuerst aktualisiert werden.",
+    "unsatisfiable_title": "Daten hinzufügen",
+    "unsatisfiable_message_markdown": "Sie wurden gebeten, persönliche Daten weiterzugeben, die noch nicht in Ihrer IRMA-App vorhanden oder schon abgelaufen sind. Sie müssen die Daten zuerst zu Ihrer IRMA-App hinzufügen, um sie weitergeben zu können.",
+    "obtain": "Hinzufügen",
+    "refresh": "Aktualisieren",
+    "nothing_selected": "Nichts ausgewählt",
+    "explanation": {
+      "title": "Sie können wählen",
+      "body": "Wählen Sie aus, welche Daten Sie weitergeben. Verwenden Sie den Pfeil oder swipen und wählen Sie.",
+      "dismiss": "OK",
+      "dismiss-remember": "Nicht mehr zeigen"
+    },
+    "redirect": "Sie werden zurück zur Webseite geleitet...",
+    "see_more": "Scrollen Sie nach unten, um den Rest zu sehen.",
+    "feedback": {
+      "header": {
+        "success": "Erfolgreich",
+        "canceled": "Abgebrochen",
+        "notSatisfiable": "Abgebrochen"
+      },
+      "text": {
+        "success": "Ihre Daten wurden an **{otherParty}** weitergegeben.",
+        "canceled": "Sie haben die Weitergabe der Daten an {otherParty} abgebrochen.",
+        "notSatisfiable": "Ihre Daten wurden nicht an {otherParty} weitergegeben, die ausgewählte Karte ist abgelaufen. Bitte kontaktieren Sie den Herausgeber."
+      }
+    },
+    "call_info": {
+      "title": "Anrufen mit IRMA",
+      "success": "Daten weitergegeben",
+      "success_message_markdown": "Ihre Daten wurden an **{otherParty}** weitergegeben.\nFühren Sie die nachfolgenden Schritte aus, um den Anruf zu starten.",
+      "success_message_ios_markdown": "Ihre Daten wurden an **{otherParty}** weitergegeben.",
+      "continue": "1. Tippen Sie auf Weiter",
+      "continue_ios": "Tippen Sie auf Weiter um anzurufen",
+      "continue_message": "Ihre Telefon-App öffnet sich nun automatisch. Die Nummer ist bereits eingegeben, gefolgt von einem Verbindungs-Code.",
+      "continue_message_ios": "Es erscheint ein Pop-up-Fenster mit der Möglichkeit, den Anruf zu tätigen. Die Nummer ist bereits eingegeben, gefolgt von einem Verbindungs-Code. Wenn Sie sich für einen Anruf entscheiden, hören Sie ein paar Pieptöne und Sie werden verbunden.",
+      "call": "2. Tippen Sie auf die Anruftaste in Ihrer Telefon-App",
+      "call_message": "Sie hören ein paar Pieptöne und werden dann verbunden.",
+      "continue_button": "Weiter"
+    },
+    "logo_semantic": "Logo von {otherParty}",
+    "signing_call_header": "{otherParty} bitten Sie, eine Nachricht zu unterschreiben und {phoneNumber} anzurufen"
+  },
+  "reset_pin": {
+    "title": "PIN verloren",
+    "message": "Haben Sie Ihre PIN verloren? Es tut uns leid, aber die IRMA-Organisation kennt Ihre PIN nicht. Wenn Sie IRMA weiterhin nutzen möchten, müssen Sie eine neue PIN eingeben und alle Daten neu laden.",
+    "existing_data_title": "Was passiert mit meinen alten Karten?",
+    "existing_data_message": "Ihre alten Karten werden von Ihrem Handy gelöscht. Wenn Sie möchten, können Sie neue Karten hinzufügen und IRMA wieder verwenden.",
+    "back": "Abbrechen",
+    "reset": "PIN und IRMA-Karten zurücksetzen",
+    "existing_data_removed": "Alle Karten in Ihrer IRMA-App werden gelöscht."
+  },
+  "arrow_back": {
+    "safari": "Tippen Sie auf den Namen der Anwendung (z.B. Safari, Chrome, Firefox) in der linken oberen Ecke, um zu der Anwendung zurückzukehren, von der Sie gekommen sind.",
+    "info_success-0": "Fertig, Ihre Daten wurden weitergegeben.",
+    "info_success-1": "Fertig, die Karte wurde hinzugefügt.",
+    "info_success-2": "Fertig, die Karten wurden hinzugefügt.",
+    "info_no_success": "Abgebrochen."
+  },
+  "update": {
+    "required": "Um IRMA weiterhin nutzen zu können, müssen Sie die App aktualisieren",
+    "doupdate": "Aktualisieren"
+  },
+  "action_feedback": {
+    "ok": "OK"
+  },
+  "device_rooted_warning": {
+    "title": "Ihr Gerät ist unsicher",
+    "body": "Das Betriebssystem auf Ihrem Gerät scheint geändert worden zu sein. Aus diesem Grund kann die Sicherheit Ihrer Daten nicht garantiert werden.",
+    "button_accept_risk": "Ich akzeptiere das Risiko"
+  },
+  "issue_wizard": {
+    "add_cards": "Karten hinzufügen",
+    "add_credential": "Füge {credential} hinzu ",
+    "add": "Hinzufügen",
+    "back": "Abbrechen",
+    "done": "OK"
+  }
+}
