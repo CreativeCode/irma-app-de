@@ -2,7 +2,7 @@
 
 The IRMA app currently exists in Dutch and English. If a user's phone is set to Dutch, the app will also be in Dutch. If their phone is set to any other language, our app will appear in English. To support additional languages, IRMA relies on contributions by members of the IRMA community. 
 
-This file explains how to contribute and help to translate IRMA into new languages. It uses our translation into german (which currently is under review) as an example. It provides a "Quick" start" guide with the *technical* core instructions. For more detailed instructions and advice about the *translation process*, please look at our blog post [*"IRMA translations made easy"*](link). 
+This file explains how to contribute and help to translate IRMA into new languages. It uses our translation into german (which currently is under review) as an example. It provides a "Quick" start" guide with the *technical* core instructions. For more detailed instructions and advice about the *translation process*, please look at our blog post [*"IRMA translations made easy"*](https://creativecode.github.io/irma-made-easy/posts/irma-translations-made-easy/). 
 
 If you want to contribute, we assume you know the [IRMA app](https://irma.app) well, so you understand how and where texts are used in the app. We also assume you are comfortable with using *git* and editing `.json` and `.xml` files. No programming background is needed.   
 
